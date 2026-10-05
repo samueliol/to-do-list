@@ -6,7 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teste</h1>
+    <main>
+        <div class="lists-content">
+            <h2 id="myListTitle">My lists <button id="addList">+</button></h2>
+            <div id="listContentItens">
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="itens-content">
+            <h2>Backlog</h2>
+            <form action="" id="taskForm">
+                 <label for="title">Task</label>
+                <input type="text" name="title" id ="titleTask">
+                <input type="button" value="Add Task" id="addTaskBtn">
+            </form>
+
+        </div>
+    </main>
     <script type="module" src="index.js"></script>
 </body>
 </html>
